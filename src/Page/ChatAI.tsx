@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  baseURL: "https://api.deepseek.com",
-  apiKey: "sk-57e62747f59c400baa1b1b440557fe13",
+  // baseURL: "https://api.deepseek.com",
+  // apiKey: "sk-57e62747f59c400baa1b1b440557fe13",
   dangerouslyAllowBrowser: true,
 });
 const ChatAI: React.FC = () => {
