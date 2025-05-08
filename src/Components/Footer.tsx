@@ -2,13 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div>
-      {/* Main Content */}
-      <main>
-        <h1>Welcome to SmartPharm</h1>
-        <p>Your AI-Powered Treatment Companion</p>
-      </main>
-
+    <div className="mt-5">
       {/* Footer */}
       <footer className="text-center mt-5">
         <p>&copy; 2023 SmartPharm. All rights reserved.</p>

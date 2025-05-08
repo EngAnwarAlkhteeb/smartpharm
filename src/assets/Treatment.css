@@ -1,0 +1,59 @@
+.client-container {
+  background-color: #f6f6f9;
+}
+
+.card-header-container {
+  top: -30px;
+}
+
+.card-header {
+  width: fit-content;
+  border-radius: 50px !important;
+}
+
+.equal-height-card {
+  height: 85%;
+  border-radius: 15px;
+}
+
+.image-scroller-container {
+  overflow: hidden; /* Hide overflow */
+  width: 100%; /* Full width of the container */
+  padding: 20px 0; /* Padding around the scroller */
+}
+
+.image-scroller-row {
+  display: flex; /* Use flex for alignment */
+  justify-content: flex-start; /* Align items at the start */
+}
+
+.image-scroller {
+  display: flex; /* Make the container a flexbox */
+  width: 200%; /* Set width to hold two sets of images */
+  animation: scroll 20s linear infinite; /* Apply the infinite animation */
+}
+
+.image-scroller-content {
+  display: flex; /* Flex container for images */
+}
+
+.scrolling-image {
+  width: 150px; /* Set a fixed width for images */
+  height: 50px;
+  margin-right: 10px; /* Space between images */
+  margin: 0px 30px;
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(10%); /* Start at normal position */
+  }
+  100% {
+    transform: translateX(-50%); /* Move half way to show next set */
+  }
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
